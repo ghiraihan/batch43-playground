@@ -10,9 +10,9 @@ function hitungKeliling(req, res) {
   res.status(200).send("Keliling:" + keliling);
 
   history.push({
-    sisiA: sisiA,
-    sisiB: sisiB,
-    sisiC: sisiC,
+    SisiA: sisiA,
+    SisiB: sisiB,
+    SisiC: sisiC,
     Keliling: keliling,
   });
 }
